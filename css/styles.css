@@ -431,7 +431,7 @@ img {
 
 .button-modal__check:hover,
 .button-modal__check:focus {
-    background-color: #188CE8;;
+    background-color: #188CE8;
 }
 
 /* Характеристики*/
@@ -459,7 +459,7 @@ img {
 }
 
 
-.specifications__title{
+.specification__title{
     margin-bottom: 10px;
 
     font-weight: bold;
@@ -469,7 +469,7 @@ img {
     text-transform: uppercase;
 }
 
-.specifications__text {
+.specification__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
