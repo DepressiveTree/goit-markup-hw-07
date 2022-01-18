@@ -7,12 +7,12 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: $blue-color;
+}
 
-    &__dark {
-        color: black;
-    }
+.logo__dark {
+    color: black;
+}
 
-    &__light {
-        color: $white-color;
-    }
+.logo__light {
+    color: $white-color;
 }

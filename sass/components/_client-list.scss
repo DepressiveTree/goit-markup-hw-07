@@ -2,22 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    &__link {
-        display: flex;
-        width: 170px;
-        height: 92px;
-        justify-content: center;
-        align-items: center;
-    
-        border: 1px solid $gray-color-2;
-        fill: $gray-color-2;
-    
-        transition: border 250ms $animation-timing, fill 250ms $animation-timing;
-    }
+.client-list__link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
 
-    &__link:hover,
-    &__link:focus {
+    border: 1px solid $gray-color-2;
+    fill: $gray-color-2;
+
+    transition: border 250ms $animation-timing, fill 250ms $animation-timing;
+
+    &:hover,
+    &:focus {
         border-color: $blue-color;
         fill: $blue-color;
     }
